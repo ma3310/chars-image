@@ -8,9 +8,9 @@
 
 #ifndef chars_image_SuperMan_h
 #define chars_image_SuperMan_h
-#import "Image.h"
+#import "_BasicImage.h"
 
-@interface SuperMan : Image {
+@interface SuperMan : _BasicImage {
     
 }
 

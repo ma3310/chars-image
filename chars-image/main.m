@@ -43,7 +43,7 @@ int main(int argc, const char * argv[]) {
 void print_usage() {
     
     @autoreleasepool {
-        printf("Usage: Char Image <type>\n");
+        printf("Usage: Char _BasicImage <type>\n");
     }
 }
 

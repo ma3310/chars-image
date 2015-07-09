@@ -9,7 +9,7 @@
 #ifndef chars_image_main_h
 #define chars_image_main_h
 
-#import "Image.h"
+#import "_BasicImage.h"
 #import "SuperMan.h"
 
 void print_usage();

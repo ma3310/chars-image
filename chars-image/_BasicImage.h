@@ -10,11 +10,11 @@
 #define chars_image_output_basic_h
 
 
-@interface Image: NSObject
+@interface _BasicImage : NSObject
 
-@property(nonatomic, copy) NSString *image_data;
+@property(nonatomic, copy) NSString* image_data;
 
--(NSString*) get_image_data;
+-(NSString*) image_data;
 -(void) set_image_data: (NSString*)param;
 -(void) output_image;
 

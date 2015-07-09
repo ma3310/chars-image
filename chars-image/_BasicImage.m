@@ -7,13 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Image.h"
+#import "_BasicImage.h"
 
-@implementation Image
+@implementation _BasicImage
 
 
 
--(NSString*) get_image_data{
+-(NSString*) image_data{
     return self.image_data;
 }
 
