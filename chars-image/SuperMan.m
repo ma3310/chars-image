@@ -14,7 +14,7 @@
 @implementation SuperMan
 
 
--(SuperMan *) init{
+-(SuperMan *) init {
 
     self.image_data = @""
         "\n" "  ◢██████████◣     "
