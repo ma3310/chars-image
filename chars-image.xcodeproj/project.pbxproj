@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		73CF85791B4EDAA000ECE06F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CF85781B4EDAA000ECE06F /* main.m */; };
-		73CF85831B4EDF3F00ECE06F /* _BasicImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CF85821B4EDF3F00ECE06F /* _BasicImage.m */; };
+		73CF85831B4EDF3F00ECE06F /* BasicImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CF85821B4EDF3F00ECE06F /* BasicImage.m */; };
 		73CF85861B4EE66000ECE06F /* SuperMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CF85851B4EE66000ECE06F /* SuperMan.m */; };
+		BF6F16C5768054CC141AB29F /* Sheep.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6F1137FF7D1F1AE107B0DC /* Sheep.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,10 +29,12 @@
 		73CF85751B4EDAA000ECE06F /* chars-image */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "chars-image"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73CF85781B4EDAA000ECE06F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		73CF857F1B4EDB5400ECE06F /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
-		73CF85811B4EDC8000ECE06F /* _BasicImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _BasicImage.h; sourceTree = "<group>"; };
-		73CF85821B4EDF3F00ECE06F /* _BasicImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _BasicImage.m; sourceTree = "<group>"; };
+		73CF85811B4EDC8000ECE06F /* BasicImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicImage.h; sourceTree = "<group>"; };
+		73CF85821B4EDF3F00ECE06F /* BasicImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicImage.m; sourceTree = "<group>"; };
 		73CF85841B4EE5CA00ECE06F /* SuperMan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperMan.h; sourceTree = "<group>"; };
 		73CF85851B4EE66000ECE06F /* SuperMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperMan.m; sourceTree = "<group>"; };
+		BF6F1137FF7D1F1AE107B0DC /* Sheep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sheep.m; sourceTree = "<group>"; };
+		BF6F1EFDE23089BF043C9728 /* Sheep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sheep.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +77,12 @@
 		73CF85801B4EDC3200ECE06F /* data */ = {
 			isa = PBXGroup;
 			children = (
-				73CF85811B4EDC8000ECE06F /* _BasicImage.h */,
-				73CF85821B4EDF3F00ECE06F /* _BasicImage.m */,
+				73CF85811B4EDC8000ECE06F /* BasicImage.h */,
+				73CF85821B4EDF3F00ECE06F /* BasicImage.m */,
 				73CF85841B4EE5CA00ECE06F /* SuperMan.h */,
 				73CF85851B4EE66000ECE06F /* SuperMan.m */,
+				BF6F1137FF7D1F1AE107B0DC /* Sheep.m */,
+				BF6F1EFDE23089BF043C9728 /* Sheep.h */,
 			);
 			name = data;
 			sourceTree = "<group>";
@@ -140,7 +145,8 @@
 			files = (
 				73CF85791B4EDAA000ECE06F /* main.m in Sources */,
 				73CF85861B4EE66000ECE06F /* SuperMan.m in Sources */,
-				73CF85831B4EDF3F00ECE06F /* _BasicImage.m in Sources */,
+				73CF85831B4EDF3F00ECE06F /* BasicImage.m in Sources */,
+				BF6F16C5768054CC141AB29F /* Sheep.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

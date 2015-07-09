@@ -22,9 +22,7 @@
 }
 
 -(void) output_image{
-    @autoreleasepool {
-        NSLog(@"%@", self.image_data);
-    }
+    printf("%s\n",[self.image_data UTF8String]);
 
 }
 

@@ -31,8 +31,8 @@ int main(int argc, const char * argv[]) {
         print_usage();
     }
 
-    SuperMan* obj = [[SuperMan alloc] init ];
-    [obj output_image];
+    BasicImage *img = [[SuperMan alloc] init ];
+    [img output_image];
     
     return 0;
 

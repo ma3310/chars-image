@@ -23,6 +23,8 @@
             "\n" "          ||    ||     "
             ;
 
+    self.image_data = self.basic_data;
+
     return self;
 
 }
