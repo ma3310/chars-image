@@ -15,14 +15,7 @@
 #import "main.h"
 
 
-
 int main(int argc, const char * argv[]) {
-    
-    @autoreleasepool {
-        
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
     
     // If parameter is not enough, output prompt message ...
     if (argc < 2){
@@ -31,11 +24,22 @@ int main(int argc, const char * argv[]) {
         print_usage();
     }
 
-    BasicImage *img = [[SuperMan alloc] init ];
-    [img output_image];
+    dispatch(argv+1);
     
     return 0;
 
+
+}
+
+void dispatch (const char ** type){
+
+    BasicImage *img;
+
+    if (strcmp(*type, "sheep") == 0){
+        img = [[Sheep alloc] init ];
+    }
+
+    [img output_image];
 
 }
 
