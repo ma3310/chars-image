@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		73CF85791B4EDAA000ECE06F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CF85781B4EDAA000ECE06F /* main.m */; };
+		73CF85831B4EDF3F00ECE06F /* Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CF85821B4EDF3F00ECE06F /* Image.m */; };
+		73CF85861B4EE66000ECE06F /* SuperMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CF85851B4EE66000ECE06F /* SuperMan.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		73CF85751B4EDAA000ECE06F /* chars-image */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "chars-image"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73CF85781B4EDAA000ECE06F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73CF857F1B4EDB5400ECE06F /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		73CF85811B4EDC8000ECE06F /* Image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		73CF85821B4EDF3F00ECE06F /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
+		73CF85841B4EE5CA00ECE06F /* SuperMan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperMan.h; sourceTree = "<group>"; };
+		73CF85851B4EE66000ECE06F /* SuperMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperMan.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +64,22 @@
 		73CF85771B4EDAA000ECE06F /* chars-image */ = {
 			isa = PBXGroup;
 			children = (
+				73CF85801B4EDC3200ECE06F /* data */,
 				73CF85781B4EDAA000ECE06F /* main.m */,
+				73CF857F1B4EDB5400ECE06F /* main.h */,
 			);
 			path = "chars-image";
+			sourceTree = "<group>";
+		};
+		73CF85801B4EDC3200ECE06F /* data */ = {
+			isa = PBXGroup;
+			children = (
+				73CF85811B4EDC8000ECE06F /* Image.h */,
+				73CF85821B4EDF3F00ECE06F /* Image.m */,
+				73CF85841B4EE5CA00ECE06F /* SuperMan.h */,
+				73CF85851B4EE66000ECE06F /* SuperMan.m */,
+			);
+			name = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +139,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				73CF85791B4EDAA000ECE06F /* main.m in Sources */,
+				73CF85861B4EE66000ECE06F /* SuperMan.m in Sources */,
+				73CF85831B4EDF3F00ECE06F /* Image.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
