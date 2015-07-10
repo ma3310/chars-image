@@ -16,16 +16,19 @@
 
 
 int main(int argc, const char * argv[]) {
-    
-    // If parameter is not enough, output prompt message ...
-    if (argc < 2){
-        
-        printf("You only provided %i parameter(s), check below for usage:\n\n", argc-1);
-        print_usage();
+
+    @autoreleasepool {
+
+        // If parameter is not enough, output prompt message ...
+        if (argc < 2) {
+
+            printf("You only provided %i parameter(s), check below for usage:\n\n", argc - 1);
+            print_usage();
+        }
+
+        dispatch(argv + 1);
     }
 
-    dispatch(argv+1);
-    
     return 0;
 
 
